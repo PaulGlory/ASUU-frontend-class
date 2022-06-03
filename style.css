@@ -1,0 +1,121 @@
+ /* Styling all contents */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:  normal;
+    font-style: normal;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+h2{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 17px;
+}
+h4{
+    font-size: 14px;
+    margin: 5px 0px;
+    font-weight: bold;
+}
+
+span{
+    font-style: italic;
+    margin: 0px 1px 0px 17px;
+    font-weight: normal;
+}
+
+ul{
+    margin-left: 25px;
+    margin-right: 90px;
+}
+
+li{
+    margin: 5px 0px;
+}
+
+a{
+    text-decoration: none;
+}
+/*Heading Part*/
+#address{
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h1{
+    margin: 45px 0px 5px 0px;
+}
+
+
+/* Resume Contents */
+
+.overview, .skill, .edu, .work, .admin{
+    margin: 0px 60px 30px 60px;
+}
+
+#edu, #edu1, #edu2, #work, #work1, #work2, #admin, #admin1{
+    display: flex;
+}
+
+section .head{
+    font-size: 24px;
+}
+
+
+#skills{
+    display: flex;
+}
+
+#edu div{
+    margin-bottom: 15px;
+    margin-left: 90px;
+}
+
+#edu1 div{
+    margin-bottom: 15px;
+    margin-left: 145px;
+}
+
+#edu2 div{
+    margin-bottom: 15px;
+    margin-left: 85px;
+}
+
+#work div{
+    margin-left: 130px;
+}
+
+#work1 div{
+    margin-left: 125px;
+}
+
+#work2 div{
+    margin-left: 75px;
+}
+
+#admin div{
+    margin-bottom: 15px;
+    margin-left: 80px;
+}
+
+#admin1 div{
+    margin-bottom: 15px;
+    margin-left: 75px;
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
